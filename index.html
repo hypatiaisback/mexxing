@@ -3,10 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Static Site</title>
+  <title>Social Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>Welcome to my GitHub Pages site.</p>
+  <nav>
+    <a href="instagram.html" target="_blank">Instagram</a>
+    <a href="twitter.html" target="_blank">Twitter</a>
+    <a href="facebook.html" target="_blank">Facebook</a>
+  </nav>
+  <div class="content">
+    <h1>Welcome to My Site</h1>
+    <p>Click a link above to open a blank page.</p>
+  </div>
 </body>
 </html>
